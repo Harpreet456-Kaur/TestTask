@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDialog"
+        android:text="Edit and Delete"
+        android:textSize="20sp"
+        android:layout_marginLeft="80dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etDialog"
+        android:layout_marginTop="30dp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/tvDialog"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDelete"
+        android:layout_marginLeft="20dp"
+        android:text="DELETE"
+        android:textSize="20sp"
+        android:layout_below="@+id/etDialog"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEdit"
+        android:layout_marginLeft="150dp"
+        android:text="EDIT"
+        android:textSize="20sp"
+        android:layout_below="@+id/etDialog"
+        android:layout_marginTop="30dp"
+        />
+
+</RelativeLayout>

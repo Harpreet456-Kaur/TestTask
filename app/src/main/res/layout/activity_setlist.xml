@@ -16,8 +16,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnEdit"
         android:text="EDIT DEFAULT"
-        android:layout_alignBottom="@+id/lvList"
-        android:layout_marginLeft="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
         />
 
     <Button
@@ -25,9 +25,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnAdd"
         android:text="ADD"
-        android:layout_alignRight="@+id/lvList"
-        android:layout_alignBottom="@+id/lvList"
-        android:layout_marginRight="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="50dp"
        />
 
 </RelativeLayout>
